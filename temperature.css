@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: plum;
+}
+div {
+  height: 25vh;
+  margin: 50px auto;
+  text-align: center;
+}
+input[type="number"] {
+  width: 40%;
+  height: 60%;
+  background: rgb(128, 66, 128);
+  font-family: orbitron;
+  color: black;
+  font-size: 1cm;
+  text-align: center;
+  border: 0;
+}
+::placeholder {
+  color: #222222;
+}
